@@ -1,0 +1,209 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #053b0a;
+  position: relative;
+  height: 140px;
+}
+
+#logo{
+  width: 300px;
+}
+
+#socials{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 50px;
+  background-color: #053b0a;
+}
+#cart{
+  width: 50px;
+  margin: 10px;
+}
+
+nav {
+  width: 500px;
+  margin: auto;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+}
+
+nav li{
+  text-decoration: none;
+  padding-right: 150px;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  font-size: 1.5em;
+  width: 100px;
+  text-align: center;
+  color: black;
+
+}
+
+nav img{
+  width: 100px;
+  margin: 0;
+}
+
+.product img{
+  width: 450px;
+  margin: 30px;
+}
+
+#root h2{
+  font-size: 2.5em;
+  margin: 20px;
+  padding: 20px;
+}
+
+#root h3{
+  font-size: 2em;
+}
+
+#root p{
+  font-size: 1.5em;
+}
+
+.product{
+  display: flex;
+  margin-left: 70px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.formElement{
+  margin: 8px
+}
+
+#productsPage{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#productsPage button{
+  color: aliceblue;
+  background-color: #053b0a;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+#productsPage button:hover{
+  color: aliceblue;
+  background-color: red;
+}
+
+#productsPage button:focus{
+  outline: none;
+}
+
+#cartSect{
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
+
+#number{
+  font-size: 2.5em;
+  color: aliceblue;
+}
+
+#contactForm{
+  margin: 50px;
+  font-size: 1.5em;
+}
+
+#newProductForm{
+  position: relative;
+  left: 80px;
+  bottom: 20px;
+}
+
+.cartItem{
+  position: absolute;
+  background-color: aliceblue;
+  right: 10px;
+  top: 73px;
+  padding: 20px;
+  font-size: 1em;
+  border-color: #053b0a;
+  border-style: solid;
+  border-width: 1px;
+  width: 300px;
+}
+
+.cartItem ul{
+  list-style-type: none;
+
+}
+
+.cartItem div p{
+  padding: 0;
+  margin: 0;
+}
+
+.cartItem li{
+  display: flex;
+}
+
+.cartItem div{
+  padding:5px;
+}
+
+.cartItem li img{
+  padding: 30px;
+  width: 70px;
+}
+
+.cartItem #deleteItem{
+  background-color: red;
+  color: aliceblue;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.cartItem button{
+  display: block;
+  margin: auto;
+}
+
+.cartItem button:focus{
+  outline: none;
+}
+
+.cartItem .changeQuant button{
+  display: inline;
+  font-size: 1em;
+  text-align: center;
+  margin: 5px;
+  background-color: aliceblue;
+  color: #053b0a;
+  border-color: #053b0a;
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.cartItem .changeQuant button:hover{
+  background-color: #053b0a;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.cartItem .changeQuant button:focus{
+  outline: none;
+}
